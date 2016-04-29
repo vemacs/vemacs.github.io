@@ -19,10 +19,10 @@
         border-right: 1px solid #ddd;
         padding-right: 2px;
     }
-}
 
-.side-content {
-    padding: 25px;
+    .side-content {
+        padding: 25px;
+    }
 }
 
 .fa-2 {
