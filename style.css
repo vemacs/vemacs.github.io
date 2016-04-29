@@ -1,0 +1,56 @@
+.left-content {
+    text-align: center;
+    padding-top: 32px;
+}
+
+@media screen and (min-width: 550px) {
+    body {
+        height: 100vh;
+        margin: 0px;
+    }
+
+    .vertical-center {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .left-content {
+        border-right: 1px solid #ddd;
+    }
+}
+
+.side-content {
+    padding: 25px;
+}
+
+.fa-2 {
+    font-size: 2em;
+    vertical-align: middle;
+    padding-bottom: 3px;
+}
+
+.fa {
+    margin-right: 10px;
+    color: #666;
+}
+
+.link-container {
+    margin-bottom: 8px;
+}
+
+.link-text {
+    display: inline-block;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+h5 {
+    margin-top: 16px;
+    color: #666;
+}
+
+h4 {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
